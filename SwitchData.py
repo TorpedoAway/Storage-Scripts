@@ -13,10 +13,8 @@ def CreateZoneMap():
     GlobalZoneMap = dict()
     GlobalZoneNameMap = dict()
     zonefiles = [
-                 'fbrs01_c03_j00a_zoneshow.txt', 
-                 'fbrs02_c03_j00w_zoneshow.txt', 
-                 'fbsc01_c03_j00f_zoneshow.txt', 
-                 'fbsc02_c03_j01s_zoneshow.txt'
+                 'zoneshow1.txt', 
+                 'zoneshow2.txt' 
                 ]
     path = '/usr/local/StorageOps/data/brcd'
     for zonefile in zonefiles:
